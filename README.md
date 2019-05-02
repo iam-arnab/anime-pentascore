@@ -1,1 +1,1 @@
-# anime-pentascore
+# Anime PentaScore
