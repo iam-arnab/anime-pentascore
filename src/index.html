@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Anime PentaScore By Arnab Chakraborty</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body bgcolor="#1a1a1a">
+    
+    <div class="parallax">
+    <center><img src="assets/Anime PentaScore.png" width="100px" height="100px"></center>
+  </div>
+    
+    <form name="AnimeName">
+    <p>Anime name:</p>
+    <input name="AnimeInput" type="text">
+    </form>
+
+    <p>Please select the scores for the following:</p>
+    <hr>
+
+    <form name="myForm">
+    <p>For <b>animation and art</b></p>
+    <select id="ArtSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>
+    </select>
+
+
+
+    <p>For <b>plot</b></p>
+    <select name="PlotSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>
+    </select>
+
+
+
+    <p>For <b>OST/Soundtrack</b></p>
+    <select name="ostSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>
+    </select>
+
+
+
+    <p>For the <b>characters</b></p>
+    <select name="CharactersSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>>
+    </select>
+
+
+
+    <p>For <b>enjoyment</b></p>
+    <select name="enjoymentSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>
+    </select>
+
+
+
+    <p>Based on your <b>what you think the anime should get</b></p>
+    <select name="InstinctSelect">
+    <option value="">Select Score</option>
+    <option value="10">10 - Masterpiece</option>
+    <option value="9">9 - Great</option>
+    <option value="8">8 - Very Good</option>
+    <option value="7">7 - Good</option>
+    <option value="6">6 - Fine</option>
+    <option value="5">5 - Average</option>
+    <option value="4">4 - Bad</option>
+    <option value="3">3 - Very Bad</option>
+    <option value="2">2 - Horrible</option>
+    <option value="1">1 - Appalling</option>
+    </select>
+    </form>
+    <br>
+    <br>
+    <button onclick="computeScore()">Show Score</button>
+    <button id = "historyBtn">Score History</button>
+    <hr>
+
+    <h2 id="printscore"></h2>
+
+
+
+ 
+  </body>
+  <script src="index.js" type="text/javascript"></script>
+</html>
