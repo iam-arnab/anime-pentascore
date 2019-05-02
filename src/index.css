@@ -1,0 +1,58 @@
+
+p
+{
+	color: white;
+	font-size: 20px;
+}
+
+button
+{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #6666ff;
+    border-radius: 4px;
+    padding: 9px 11px;
+    color: #6666ff;
+    font-size: 17px;
+    border-width: 3px;
+    font-weight: bold;
+    cursor: grabbing;
+    text-decoration: none;
+    
+}
+button:hover
+{
+	background: rgba(102, 102, 255, 0.54);
+}
+h1
+{
+	color: white;
+}
+
+h2
+{
+	color: white;
+}
+img
+{
+    height: 200px;
+    width: 200px;
+}
+.parallax {
+    /* The image used */
+    background-image: url('assets/background.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 300px 0;
+    text-align: center;
+    background-position: top;
+    
+  }
