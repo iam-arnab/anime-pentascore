@@ -2,6 +2,7 @@
   "name": "anime-pentascore",
   "version": "1.0.0",
   "description": "",
+  "productName": "Anime PentaScore",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
