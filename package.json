@@ -1,7 +1,7 @@
 {
   "name": "anime-pentascore",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple for those otakus who are very wary of their scores that they add on myanimelist. This application makes it easy to calulate the most suitable and appropriate score for a particular anime.",
   "productName": "Anime PentaScore",
   "main": "main.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/Arnab771/anime-pentascore.git"
   },
-  "keywords": [],
+  "keywords": [
+    "anime",
+    "anime pentascore",
+    "anime score calulator",
+    "score calulator"
+  ],
   "author": "Arnab Chakraborty",
   "license": "ISC",
   "bugs": {
