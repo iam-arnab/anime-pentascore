@@ -1,0 +1,23 @@
+button
+{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #6666ff;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #6666ff;
+    font-size: 13px;
+    border-width: 3px;
+    font-weight: bold;
+    cursor: grabbing;
+    text-decoration: none;
+    
+}
+button:hover
+{
+	background: rgba(102, 102, 255, 0.54);
+}
+#showHistory
+{
+    color: #e6e6e6;
+}
