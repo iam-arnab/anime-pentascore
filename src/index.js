@@ -21,12 +21,8 @@ function computeScore()
 
 	const userAppDataPath = (electron.app || electron.remote.app).getPath('userData');
 	
-	const animePentaScorePath = path.join(userAppDataPath, 'Anime PentaScore')
-	if(!fs.existsSync(animePentaScorePath))
-	{
-		fs.mkdirSync(animePentaScorePath);
-	}
-	const scoreHistoryPath = path.join(animePentaScorePath, 'Score History');
+
+	const scoreHistoryPath = path.join(userAppDataPath, 'Score History');
 	
 	fs.appendFileSync(scoreHistoryPath,"\<br>" + ScoreOutput);
 
@@ -38,9 +34,9 @@ function computeScore()
 }
 historyBtn.addEventListener('click', function(event){
     const modalPath = path.join('file://',__dirname, 'history.html')
-    let win = new BrowserWindow({ frame: false, width: 500, height: 400})
-    win.on('close', function() { win = null })
-    win.loadURL(modalPath)
+    let win = new BrowserWindow({ width: 500, height: 400, webPreferences: {nodeIntegration: true}})
+	win.on('close', function() { win = null })
+	win.loadURL(modalPath)
 	win.show()
 	
 	
