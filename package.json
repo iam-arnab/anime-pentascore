@@ -1,0 +1,23 @@
+{
+  "name": "anime-pentascore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnab771/anime-pentascore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnab771/anime-pentascore/issues"
+  },
+  "homepage": "https://github.com/Arnab771/anime-pentascore#readme",
+  "devDependencies": {
+    "electron": "5.0.0"
+  }
+}
